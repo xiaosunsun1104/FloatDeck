@@ -18,7 +18,7 @@ const bundledDemo = path.join(destination, 'resources', 'default_app.asar');
 if (fs.existsSync(bundledDemo)) fs.unlinkSync(bundledDemo);
 const appDirectory = path.join(destination, 'resources', 'app');
 fs.mkdirSync(appDirectory, { recursive: true });
-for (const file of ['src', 'assets/icon', 'package.json', 'README.md', 'LICENSE']) {
+for (const file of ['src', 'assets/icon', 'package.json', 'README.md', 'README.en.md', 'docs/images', 'LICENSE']) {
   fs.mkdirSync(path.dirname(path.join(appDirectory, file)), { recursive: true });
   fs.cpSync(path.join(root, file), path.join(appDirectory, file), { recursive: true });
 }
