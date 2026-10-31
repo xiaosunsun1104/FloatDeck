@@ -6,16 +6,20 @@
   "description": "Up to ten floating web windows, with website presets and independent video controls.",
   "main": "src/main.cjs",
   "license": "MIT",
+  "author": "xiaosunsun1104",
   "scripts": {
     "start": "electron .",
     "test": "node --test test/*.test.cjs",
     "test:session": "node scripts/test-session-restart.cjs && node scripts/test-packaged-session.cjs",
     "smoke": "electron . --smoke-test",
     "generate:icon": "electron scripts/generate-icon.cjs",
-    "build:portable": "node scripts/build.cjs"
+    "build:portable": "node scripts/build.cjs",
+    "build:installer": "node scripts/build-installer.cjs",
+    "test:installer": "node scripts/test-installer.cjs"
   },
   "devDependencies": {
     "electron": "45.1.0",
+    "electron-builder": "26.18.0",
     "rcedit": "5.0.2"
   }
 }

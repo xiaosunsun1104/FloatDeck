@@ -2,7 +2,7 @@
 
 [简体中文](README.md)
 
-**[Download for Windows x64](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)** · [Release notes](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
+**[Download Windows x64 installer](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-Setup-1.0.0-x64.exe)** · [Portable ZIP](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip) · [Release notes](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
 
 Keep walkthroughs, videos and useful web pages above other windows. FloatDeck is a Windows desktop tool with up to 10 always-on-top web windows. Each window can be moved and resized, with separate global shortcuts for supported video controls.
 
@@ -29,13 +29,15 @@ Controls follow the capabilities of each page. Ordinary pages hide video control
 
 ## Download and use
 
-1. Click **Download for Windows x64** above, or open the [release page](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0).
-2. Download [FloatDeck-1.0.0-windows-x64.zip](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip) and extract the whole folder.
-3. Run `FloatDeck.exe` and keep the accompanying files. Sign in to each website yourself on first use.
+1. Click **Download Windows x64 installer** above to download `FloatDeck-Setup-1.0.0-x64.exe` in your browser.
+2. Open the installer, choose a destination and complete installation. Desktop and Start menu shortcuts are created.
+3. Start FloatDeck from a shortcut. Sign in to each website yourself on first use. Existing portable-app users on the same Windows account keep using their original local profile.
 4. Select a window, enter a URL and click 打开网页 (Open web page). Drag the title bar to move it and the edges to resize it.
 5. Click 放大网页 (Enlarge page) to view the full page and account area. Click 返回浮窗 (Return to floating window) when finished.
 
 Shortcut changes save automatically. Click 保存设置 (Save settings) for other changes. Closing the main panel exits all floating windows. The current build is unsigned.
+
+Alternatively, download the **Portable ZIP**, extract the entire folder and run `FloatDeck.exe`, keeping the accompanying files. The installer version can be removed through Windows Settings under Installed apps. Uninstalling preserves local settings and website data.
 
 ## Accounts and local data
 
@@ -60,7 +62,9 @@ npm ci
 npm start
 ```
 
-Run `npm test` for configuration and recovery-file tests, and `npm run test:session` for login lifecycle tests. Run `npm run build:portable` to create the portable build; preserve an existing build before creating a new output directory.
+Run `npm test` for configuration and recovery-file tests, and `npm run test:session` for login lifecycle tests. Run `npm run build:installer` to create `dist/FloatDeck-Setup-1.0.0-x64.exe`. Run `npm run test:installer` to check installation, reinstallation and removal using a separate test identity and shortcuts, without opening the real user profile.
+
+Run `npm run build:portable` to create the portable build; preserve an existing build before creating a new output directory.
 
 Built with Electron, JavaScript, HTML and CSS. Implementation and validation notes are available in `docs/`.
 

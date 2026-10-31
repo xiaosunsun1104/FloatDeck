@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-**[下载 Windows x64 版](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)** · [查看版本说明](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
+**[下载 Windows x64 安装版](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-Setup-1.0.0-x64.exe)** · [免安装 ZIP](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip) · [查看版本说明](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
 
 把攻略、视频和常用网页置顶显示在其他窗口上方。FloatDeck 是一款 Windows 桌面工具，可同时打开最多 10 个置顶网页浮窗，每个窗口都能移动、缩放，并为支持的视频分别设置全局快捷键。
 
@@ -29,13 +29,15 @@
 
 ## 下载和使用
 
-1. 点击上方的 **下载 Windows x64 版**，或打开 [Releases 下载页](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)。
-2. 下载 [FloatDeck-1.0.0-windows-x64.zip](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)，解压整个文件夹。
-3. 运行 `FloatDeck.exe`，保留同目录的其他文件。首次使用请在网站内自行登录。
+1. 点击上方的 **下载 Windows x64 安装版**，浏览器会下载 `FloatDeck-Setup-1.0.0-x64.exe`。
+2. 打开安装程序，选择安装位置并完成安装。安装程序会创建桌面和开始菜单快捷方式。
+3. 从快捷方式启动 FloatDeck。首次使用请在网站内自行登录；已用过便携版的同一 Windows 用户继续使用原来的本地资料。
 4. 选择窗口、填入网址，再点击“打开网页”。拖动标题栏移动，拖动边缘缩放。
 5. 要查看完整网页和账号区域，点击“放大网页”；完成后点击“返回浮窗”。
 
 快捷键修改后自动保存，其他设置修改后点击“保存设置”。关闭主面板会退出全部浮窗。发布包目前未签名。
+
+也可以下载上方的 **免安装 ZIP**，解压整个文件夹后运行其中的 `FloatDeck.exe`，保留同目录的其他文件。安装版可从 Windows 设置的“已安装的应用”中卸载；卸载保留本地设置和网站资料。
 
 ## 登录与本地数据
 
@@ -60,7 +62,9 @@ npm ci
 npm start
 ```
 
-配置与恢复文件测试：`npm test`。登录生命周期测试：`npm run test:session`。生成 Windows 便携包：`npm run build:portable`；输出目录已存在时，先另存旧构建以免覆盖。
+配置与恢复文件测试：`npm test`。登录生命周期测试：`npm run test:session`。生成 Windows 安装包：`npm run build:installer`，输出为 `dist/FloatDeck-Setup-1.0.0-x64.exe`。安装、重复安装及卸载检查：`npm run test:installer`，使用独立测试标识和快捷方式，不启动真实用户资料。
+
+生成 Windows 便携包：`npm run build:portable`；输出目录已存在时，先另存旧构建以免覆盖。
 
 项目使用 Electron、JavaScript、HTML 和 CSS。登录、更新、后台控制和网站适配的实现记录见 `docs/`。
 
