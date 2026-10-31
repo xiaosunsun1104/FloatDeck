@@ -6,6 +6,12 @@ Keep walkthroughs, videos and useful web pages above other windows. FloatDeck is
 
 **1.0 preview.** Feedback through Issues is welcome. Testing has mainly taken place on the developer's Windows 11 x64 computer; more feedback from other devices is needed. The application interface is currently in Chinese.
 
+## Why I built FloatDeck
+
+I'm a gamer, and I sometimes need to watch a walkthrough while playing. But when I'm watching one in a browser, pausing or skipping forward and backward whenever I need to isn't always convenient.
+
+So I built FloatDeck to make things easier for myself, and hopefully for other people who have run into the same problem.
+
 ![FloatDeck main window](docs/images/main-window.png)
 
 ## What you can do
