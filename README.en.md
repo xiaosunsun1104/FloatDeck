@@ -2,7 +2,7 @@
 
 [简体中文](README.md)
 
-Keep walkthroughs, videos and useful web pages within reach. FloatDeck is a Windows desktop tool with up to 10 movable, resizable floating web windows and separate global shortcuts for supported video controls.
+Keep walkthroughs, videos and useful web pages above other windows. FloatDeck is a Windows desktop tool with up to 10 always-on-top web windows. Each window can be moved and resized, with separate global shortcuts for supported video controls.
 
 **1.0 preview.** Feedback through Issues is welcome. Testing has mainly taken place on the developer's Windows 11 x64 computer; more feedback from other devices is needed. The application interface is currently in Chinese.
 
@@ -10,7 +10,7 @@ Keep walkthroughs, videos and useful web pages within reach. FloatDeck is a Wind
 
 ## What you can do
 
-- Keep a walkthrough beside a borderless or windowed game.
+- Keep a walkthrough on top beside a borderless or windowed game.
 - Open Bilibili, Douyin or other web pages in separate floating windows.
 - Assign separate play/pause and seek shortcuts to each supported player. Douyin recommendation feeds can also expose previous/next controls.
 - Choose common websites from the address menu or enter your own URL.
