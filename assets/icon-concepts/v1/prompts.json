@@ -1,0 +1,26 @@
+{
+  "method": "Built-in image_gen tool",
+  "created": "2026-10-29",
+  "app": "FloatDeck浮利机",
+  "status": "Three concept variants awaiting user selection; no application icon has been replaced.",
+  "variants": [
+    {
+      "number": 1,
+      "file": "01-outline.png",
+      "transparent_background": true,
+      "prompt": "Use case: logo-brand. Create one standalone Windows desktop application icon concept for FloatDeck, a utility for multiple floating video windows. Subject: exactly three overlapping small computer application windows, viewed straight-on, staggered diagonally from upper left to lower right. Each is a simple near-square landscape rectangle with modest corner rounding, a narrow title bar separated by one horizontal rule, and at most a single tiny window control. Design direction: precise dark charcoal outlines with solid off-white interiors, one small restrained mint accent referencing the app's existing mint interface. Equal stroke weights and deliberate optical spacing. Flat vector-like graphic, economical construction, everyday desktop utility character, like an icon a thoughtful human interface designer would draw. One centered icon, large with generous clear margins, transparent background. No lettering, no name, no letters, no numbers, no comparison sheet. No perspective, no 3D extrusion, no glass, no gradients, no glow, no shadows, no sparkles, no decorative details. The three-window silhouette must remain recognizable at small desktop icon sizes. Square canvas."
+    },
+    {
+      "number": 2,
+      "file": "02-mint-front.png",
+      "transparent_background": true,
+      "prompt": "Use case: logo-brand. Create one standalone Windows desktop application icon concept for FloatDeck, a utility for multiple floating video windows. Subject: exactly three overlapping computer application windows, straight-on, slightly offset upper-left to lower-right. Design direction: two simple rear window frames in dark charcoal and one solid muted mint foreground window, with a clear charcoal title bar separator and quiet geometric proportions. Make all three shapes clearly read as computer windows rather than documents or playing cards. Modest corner rounding, bold functional silhouette, crisp flat vector-like edges, only the essential shapes. The mint should feel like the app's existing soft mint interface accent. One centered icon with clear margins on a genuinely transparent background. No text, no letters, no numbers, no comparison board. No isometric view, no lighting effects, no gradients, no blur, no metallic or glossy surfaces, no 3D, no shadows, no decorative AI-style ornaments. Designed to remain legible as a small desktop app icon. Square canvas."
+    },
+    {
+      "number": 3,
+      "file": "03-dark-tile.png",
+      "transparent_background": true,
+      "prompt": "Use case: logo-brand. Create one standalone Windows desktop application icon concept for FloatDeck. Design direction: a simple dark charcoal rounded-square application tile containing three compact overlapping off-white computer window outlines, staggered diagonally. A very restrained mint portion on the front window references the existing app interface. The rear window outlines remain clearly visible around the front window. Include just enough of a short title bar divider to suggest actual desktop windows; remove unnecessary small controls. Strong clean silhouette, regular flat strokes, carefully aligned geometry, restrained everyday software icon design. Flat vector-like artwork, front-on, low complexity, no text, no initials, no numbers. The rounded-square tile is part of the icon; everything outside the tile is genuinely transparent. Center the tile with comfortable margins. No gradients, no depth rendering, no gloss, no glow, no shadow, no texture, no floating particles, no presentation mockup or comparison sheet. Square canvas, readable at small sizes."
+    }
+  ]
+}

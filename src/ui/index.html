@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <title>FloatDeck浮利机</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="settings" class="app-shell" novalidate>
+    <header class="appbar">
+      <div class="identity"><img src="../../assets/icon/floatdeck-256.png" alt=""><span>FloatDeck <span class="chinese-name">浮利机</span></span></div>
+      <div class="app-actions"><button id="add-window" type="button" disabled>＋ 添加窗口</button><button class="primary" type="submit">保存设置</button></div>
+    </header>
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="sidebar-heading"><span>窗口</span><span id="window-count">—</span></div>
+        <nav id="window-list" role="tablist" aria-label="网页窗口" aria-orientation="vertical"></nav>
+        <button id="help-toggle" type="button" class="help-button">使用说明</button>
+      </aside>
+      <main id="editor" class="editor"><p id="storage-warning" class="storage-warning" role="alert" hidden></p><section id="cards" aria-label="窗口设置"></section><p id="empty-state" class="empty-state" hidden>暂无窗口，点击右上角“添加窗口”开始。</p></main>
+    </div>
+    <footer class="statusbar"><p id="feedback" role="status" aria-live="polite">就绪</p><span id="open-count">0 个已打开</span><span class="version">1.0</span></footer>
+  </form>
+  <dialog id="help-dialog" aria-labelledby="help-title">
+    <h2 id="help-title">使用说明</h2>
+    <ol>
+      <li>在左侧选择窗口，用网址左边的箭头选网站，或直接输入网址。</li>
+      <li>点击“打开网页”。拖动浮窗标题栏移动，拖动边缘调整大小。</li>
+      <li>点击“放大网页”可查看完整网站、账号和登录区域；完成后点击“返回浮窗”。这个按钮不表示账号已退出。</li>
+      <li>控制项随网站和页面变化。抖音推荐页支持上一条、下一条；没有视频时隐藏视频设置。可在下方展开快捷键设置。</li>
+      <li>设置改好后点击“保存设置”。鼠标移到左侧窗口项，末尾圆点变成叉号，点击即可关闭并移除。</li>
+    </ol>
+    <p>账号与 Edge 分开保存在本机，正常重开和更新沿用原记录。每台电脑首次使用需自行登录；网站到期或安全验证可能要求重新登录。最小化主界面不会关闭浮窗，退出主程序会关闭全部浮窗。</p>
+    <div class="dialog-actions"><button id="help-close" type="button">关闭</button></div>
+  </dialog>
+  <script src="../site-profile.js"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

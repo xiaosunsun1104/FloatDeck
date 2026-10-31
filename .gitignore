@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-artifacts/
+*.log
+.DS_Store
+
+# Local login recovery files must stay on the user's computer.
+**/login-session.encrypted*
+**/login-startup.status.json
+recovery-backups/
