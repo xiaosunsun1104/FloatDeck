@@ -2,6 +2,8 @@
 
 [简体中文](README.md)
 
+**[Download for Windows x64](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)** · [Release notes](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
+
 Keep walkthroughs, videos and useful web pages above other windows. FloatDeck is a Windows desktop tool with up to 10 always-on-top web windows. Each window can be moved and resized, with separate global shortcuts for supported video controls.
 
 **1.0 preview.** Feedback through Issues is welcome. Testing has mainly taken place on the developer's Windows 11 x64 computer; more feedback from other devices is needed. The application interface is currently in Chinese.
@@ -27,8 +29,8 @@ Controls follow the capabilities of each page. Ordinary pages hide video control
 
 ## Download and use
 
-1. Open the 1.0 preview under **Releases** on this repository.
-2. Download `FloatDeck-1.0.0-windows-x64.zip` and extract the whole folder.
+1. Click **Download for Windows x64** above, or open the [release page](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0).
+2. Download [FloatDeck-1.0.0-windows-x64.zip](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip) and extract the whole folder.
 3. Run `FloatDeck.exe` and keep the accompanying files. Sign in to each website yourself on first use.
 4. Select a window, enter a URL and click 打开网页 (Open web page). Drag the title bar to move it and the edges to resize it.
 5. Click 放大网页 (Enlarge page) to view the full page and account area. Click 返回浮窗 (Return to floating window) when finished.

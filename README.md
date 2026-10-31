@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+**[下载 Windows x64 版](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)** · [查看版本说明](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)
+
 把攻略、视频和常用网页置顶显示在其他窗口上方。FloatDeck 是一款 Windows 桌面工具，可同时打开最多 10 个置顶网页浮窗，每个窗口都能移动、缩放，并为支持的视频分别设置全局快捷键。
 
 **1.0 预览版**，欢迎试用并通过 Issues 反馈。目前主要在开发者的 Windows 11 x64 电脑上测试，跨设备兼容性仍需更多反馈。
@@ -27,8 +29,8 @@
 
 ## 下载和使用
 
-1. 在本仓库右侧的 **Releases** 中打开 1.0 预览版。
-2. 下载 `FloatDeck-1.0.0-windows-x64.zip`，解压整个文件夹。
+1. 点击上方的 **下载 Windows x64 版**，或打开 [Releases 下载页](https://github.com/xiaosunsun1104/FloatDeck/releases/tag/v1.0.0)。
+2. 下载 [FloatDeck-1.0.0-windows-x64.zip](https://github.com/xiaosunsun1104/FloatDeck/releases/download/v1.0.0/FloatDeck-1.0.0-windows-x64.zip)，解压整个文件夹。
 3. 运行 `FloatDeck.exe`，保留同目录的其他文件。首次使用请在网站内自行登录。
 4. 选择窗口、填入网址，再点击“打开网页”。拖动标题栏移动，拖动边缘缩放。
 5. 要查看完整网页和账号区域，点击“放大网页”；完成后点击“返回浮窗”。
